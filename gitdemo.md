@@ -48,6 +48,7 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 - [tryGit][]
 - [Atlassian Git Tutorials][AtlassianTutor]
+- [Official Git Documentation][GitSCMDoc]
 
 ### Documents
 
@@ -58,8 +59,16 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 - [Git for ages 4 and up][4andUp]
 
+### Hosting services
+
+- [GitHub][]
+- [BitBucket][]
+
 [tryGit]: https://try.github.io
 [AtlassianTutor]: https://www.atlassian.com/git/tutorials
+[GitSCMDoc]: http://git-scm.com/doc
 [GitInternals]: https://github.com/pluralsight/git-internals-pdf
 [4andUp]: https://www.youtube.com/watch?v=1ffBJ4sVUb4
 [TLaG]: http://think-like-a-git.net
+[GitHub]: https://github.com
+[BitBucket]: https://bitbucket.org
