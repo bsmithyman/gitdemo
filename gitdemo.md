@@ -8,6 +8,14 @@ date: November 3, 2014
 
 Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control) that makes it possible to keep track of changes to text files and share those changes with others. This sort of system is most commonly used in software development.
 
+## Step-by-step guide
+
+![Creating a new repository in an empty directory](images/screenshot01.tiff)
+
+![Creating a new file in the the project directory](images/screenshot02.tiff)
+
+![Adding the new file to version control, showing the staged file, and committing the result](images/screenshot03.tiff)
+
 ## Useful links
 
 - [tryGit][]
