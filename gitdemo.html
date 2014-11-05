@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="generator" content="scholpandoc">
+  <meta name="viewport" content="width=device-width">
+  
+  <meta name="author" content="Brendan Smithyman">
+  <title>Git Demo</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+</head>
+<body>
+<div class="scholmd-container">
+<div class="scholmd-main">
+<div class="scholmd-content">
+<header>
+<h1 class="scholmd-title">Git Demo</h1>
+<div class="scholmd-author">
+Brendan Smithyman
+</div>
+<div class="scholmd-date">November 3, 2014</div>
+</header>
+<h2 id="introduction">Introduction</h2>
+<p>Git is a <a href="http://en.wikipedia.org/wiki/Revision_control">revision control system</a> that makes it possible to keep track of changes to text files<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> and share those changes with others. This sort of system is most commonly used in software development.</p>
+<h2 id="rough-examples">Rough examples</h2>
+<p>Here are some examples that might help you in getting started!</p>
+<h3 id="initializing-a-repository">Initializing a repository</h3>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot01.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Creating a new repository in an empty directory</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot02.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Creating a new file in the the project directory</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot03.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Adding the new file to version control, showing the staged file, and committing the result</span></figcaption></div>
+</figure>
+<h3 id="adding-new-files-and-changes">Adding new files and changes</h3>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot04.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Creating some new files, listing the directory contents, and showing the status of the Git repository</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot05.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Checking for changes in the repository’s files</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot06.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Trying to check differences in image files, adding the changes and new files to version control, committing the results</span></figcaption></div>
+</figure>
+<h3 id="atomic-commits-and-selecting-changes">Atomic commits and selecting changes</h3>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot07.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Several simultaneous changes; adding only some of the files to the staging area</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot08.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Showing the differences in the document; there are two main sets of changes</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot09.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Adding only the second change—this goes with the images—using interactive mode</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot10.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Showing the changes that are staged and those that aren’t; committing related changes</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot11.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Showing the remaining changes that were not staged before</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot12.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Adding the changes and committing</span></figcaption></div>
+</figure>
+<h3 id="more-changes-and-showing-logs">More changes, and showing logs</h3>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot13.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Adding some more files</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot14.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Showing the commit logs</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot15.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Showing summary of the commit logs</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot16.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Showing commit logs with decorations (branches, tags, etc.) and a straight-line graph</span></figcaption></div>
+</figure>
+<h3 id="branching-and-merging">Branching and merging</h3>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot17.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Creating a branch for improving links</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot18.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Making changes in the new branch <strong>improvelinks</strong></span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot19.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Back on the <strong>master</strong> branch, making some more changes</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot20.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Making changes in a branch called <strong>fixtypo</strong></span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot21.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Committing the changes to the fixtypo branch</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot22.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Merging the <strong>fixtypo</strong> branch into <strong>master</strong> by “fast-forward”</span></figcaption></div>
+</figure>
+<figure class="scholmd-float scholmd-figure">
+<div class="scholmd-float-content"><figure class="scholmd-subfig" style="display: inline-block; width: ">
+<img src="images/screenshot23.png" />
+</figure></div>
+<div class="scholmd-float-caption"><figcaption><span class="scholmd-caption-text">Merging the <strong>improvelinks</strong> branch into <strong>master</strong> by “recursive”</span></figcaption></div>
+</figure>
+<h2 id="useful-links">Useful links</h2>
+<h3 id="tutorials">Tutorials</h3>
+<ul>
+<li><a href="https://try.github.io">tryGit</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials">Atlassian Git Tutorials</a></li>
+<li><a href="http://git-scm.com/doc">Official Git Documentation</a></li>
+</ul>
+<h3 id="documents">Documents</h3>
+<ul>
+<li><a href="https://github.com/pluralsight/git-internals-pdf">Git Internals PDF</a></li>
+<li><a href="http://think-like-a-git.net">Think Like (a) Git</a></li>
+</ul>
+<h3 id="talks">Talks</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=1ffBJ4sVUb4">Git for ages 4 and up</a></li>
+</ul>
+<h3 id="hosting-services">Hosting services</h3>
+<ul>
+<li><a href="https://github.com">GitHub</a></li>
+<li><a href="https://bitbucket.org">BitBucket</a></li>
+</ul>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>NB: Git can also keep track of binary files, but the storage and versioning of binary files is less efficient, since each update stores a new copy of the file.<a href="#fnref1">↩</a></p></li>
+</ol>
+</section>
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+      processClass: "math"
+    },
+    TeX: {
+        TagSide: "left",
+        TagIndent: "1.2em",
+        equationNumbers: {
+            autoNumber: "AMS"
+        },
+        Macros: {
+            ensuremath: ["#1",1],
+            textsf: ["\\mathsf{\\text{#1}}",1],
+            texttt: ["\\mathtt{\\text{#1}}",1]
+        }
+    },
+    "HTML-CSS": { 
+        scale: 100,
+        availableFonts: ["TeX"], 
+        preferredFont: "TeX",
+        webFont: "TeX",
+        imageFont: "TeX",
+        EqnChunk: 1000
+    }
+});
+</script>
+</div>
+</body>
+</html>
