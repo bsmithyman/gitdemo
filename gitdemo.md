@@ -34,6 +34,14 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ![Adding the changes and committing](images/screenshot12.tiff)
 
+![Adding some more files](images/screenshot13.tiff)
+
+![Showing the commit logs](images/screenshot14.tiff)
+
+![Showing summary of the commit logs](images/screenshot15.tiff)
+
+![Showing commit logs with decorations (branches, tags, etc.) and a straight-line graph]
+
 ## Useful links
 
 - [tryGit][]
