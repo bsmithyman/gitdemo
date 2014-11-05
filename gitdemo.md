@@ -28,7 +28,7 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ### Atomic commits and selecting changes
 
-![Several simultaneous chaanges; adding only some of the files to the staging area](images/screenshot07.tiff)
+![Several simultaneous changes; adding only some of the files to the staging area](images/screenshot07.tiff)
 
 ![Showing the differences in the document; there are two main sets of changes](images/screenshot08.tiff)
 
