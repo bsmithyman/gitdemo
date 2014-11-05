@@ -10,17 +10,23 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ## Step-by-step guide
 
+### Initializing a repository
+
 ![Creating a new repository in an empty directory](images/screenshot01.tiff)
 
 ![Creating a new file in the the project directory](images/screenshot02.tiff)
 
 ![Adding the new file to version control, showing the staged file, and committing the result](images/screenshot03.tiff)
 
+### Adding new files and changes
+
 ![Creating some new files, listing the directory contents, and showing the status of the Git repository](images/screenshot04.tiff)
 
 ![Checking for changes in the repository's files](images/screenshot05.tiff)
 
 ![Trying to check differences in image files, adding the changes and new files to version control, committing the results](images/screenshot06.tiff)
+
+### Atomic commits and selecting changes
 
 ![Several simultaneous chaanges; adding only some of the files to the staging area](images/screenshot07.tiff)
 
@@ -34,13 +40,15 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ![Adding the changes and committing](images/screenshot12.tiff)
 
+### More changes, and showing logs
+
 ![Adding some more files](images/screenshot13.tiff)
 
 ![Showing the commit logs](images/screenshot14.tiff)
 
 ![Showing summary of the commit logs](images/screenshot15.tiff)
 
-![Showing commit logs with decorations (branches, tags, etc.) and a straight-line graph]
+![Showing commit logs with decorations (branches, tags, etc.) and a straight-line graph](images/screenshot16.tiff)
 
 ## Useful links
 
