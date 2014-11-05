@@ -16,6 +16,12 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ![Adding the new file to version control, showing the staged file, and committing the result](images/screenshot03.tiff)
 
+![Creating some new files, listing the directory contents, and showing the status of the Git repository](images/screenshot04.tiff)
+
+![Checking for changes in the repository's files](images/screenshot05.tiff)
+
+![Trying to check differences in image files, adding the changes and new files to version control, committing the results](images/screenshot06.tiff)
+
 ## Useful links
 
 - [tryGit][]
