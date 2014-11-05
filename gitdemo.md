@@ -6,7 +6,7 @@ date: November 3, 2014
 
 ## Introduction
 
-Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control) that makes it possible to keep track of changes to text files and share those changes with others. This sort of system is most commonly used in software development.
+Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control) that makes it possible to keep track of changes to text files^[NB: Git can also keep track of binary files, but the storage and versioning of binary files is less efficient, since each update stores a new copy of the file.] and share those changes with others. This sort of system is most commonly used in software development.
 
 ## Step-by-step guide
 
