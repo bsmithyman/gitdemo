@@ -44,12 +44,19 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ## Useful links
 
+### Tutorials
+
 - [tryGit][]
 - [Atlassian Git Tutorials][AtlassianTutor]
+
+### Documents
+
 - [Git Internals PDF][GitInternals]
-- [Git for ages 4 and up][4andUp]
 - [Think Like (a) Git][TLaG]
 
+### Talks
+
+- [Git for ages 4 and up][4andUp]
 
 [tryGit]: https://try.github.io
 [AtlassianTutor]: https://www.atlassian.com/git/tutorials
