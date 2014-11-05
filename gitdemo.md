@@ -50,6 +50,22 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ![Showing commit logs with decorations (branches, tags, etc.) and a straight-line graph](images/screenshot16.tiff)
 
+### Branching and merging
+
+![Creating a branch for improving links](images/screenshot17.tiff)
+
+![Making changes in the new branch **improvelinks**](images/screenshot18.tiff)
+
+![Back on the **master** branch, making some more changes](images/screenshot19.tiff)
+
+![Making changes in a branch called **fixtypo**](images/screenshot20.tiff)
+
+![Committing the changes to the fixtypo branch](images/screenshot21.tiff)
+
+![Merging the **fixtypo** branch into **master** by "fast-forward"](images/screenshot22.tiff)
+
+![Merging the **improvelinks** branch into **master** by "recursive"](images/screenshot23.tiff)
+
 ## Useful links
 
 ### Tutorials
