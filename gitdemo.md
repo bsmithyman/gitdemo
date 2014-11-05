@@ -22,6 +22,18 @@ Git is a [revision control system](http://en.wikipedia.org/wiki/Revision_control
 
 ![Trying to check differences in image files, adding the changes and new files to version control, committing the results](images/screenshot06.tiff)
 
+![Several simultaneous chaanges; adding only some of the files to the staging area](images/screenshot07.tiff)
+
+![Showing the differences in the document; there are two main sets of changes](images/screenshot08.tiff)
+
+![Adding only the second change—this goes with the images—using interactive mode](images/screenshot09.tiff)
+
+![Showing the changes that are staged and those that aren't; committing related changes](images/screenshot10.tiff)
+
+![Showing the remaining changes that were not staged before](images/screenshot11.tiff)
+
+![Adding the changes and committing](images/screenshot12.tiff)
+
 ## Useful links
 
 - [tryGit][]
